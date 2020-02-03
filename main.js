@@ -1,11 +1,42 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+const iGetTheJoke = true;
+const havingFun = false;
+const learning = true;
+const killingIt = false;
 
+function returnFalse (parameterIsnot) {
+  return parameterIsnot = false;
+}
 
+function isOpposite (adverse) {
+  return adverse != true || false;
+}
 
+function both (x, y) {
+  return x && y == true;
+}
 
+function either (x, y) {
+  return x || y == true;
+}
 
+function firstOnly (x, y) {
+  return x == true && y == false  == true;
+}
+
+function secondOnly (x, y) {
+  return x == false && y == true == true;
+}
+
+function neither (x, y) {
+  return !x && !y == false && x && y == true || x == false && y == false ;
+}
+
+function itsComplicated (x, y, z) {
+  return x == false || y == true && z == true == true;
+}
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
