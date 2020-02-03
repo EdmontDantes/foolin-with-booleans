@@ -4,7 +4,7 @@
 const iGetTheJoke = true;
 const havingFun = false;
 const learning = true;
-const killingIt = false;
+const killingIt = havingFun && learning;
 
 function returnFalse (parameterIsnot) {
   return parameterIsnot = false;
